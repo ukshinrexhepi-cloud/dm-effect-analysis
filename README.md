@@ -80,3 +80,13 @@ The workflow includes:
 Ukshin Q. Rexhepi  
 Tübingen, Germany  
 ORCID: https://orcid.org/0009-0003-4145-5431
+
+---
+
+## Paper
+
+📄 Preprint (Figshare):  
+https://doi.org/10.6084/m9.figshare.31829263
+
+📄 Local copy:  
+paper/paper.pdf
