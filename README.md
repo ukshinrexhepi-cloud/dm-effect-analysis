@@ -86,7 +86,7 @@ ORCID: https://orcid.org/0009-0003-4145-5431
 ## Paper
 
 📄 Preprint (Figshare):  
-https://doi.org/10.6084/m9.figshare.31829263
+https://doi.org/10.6084/m9.figshare.31830892
 
 📄 Local copy:  
-paper/paper.pdf
+https://github.com/ukshinrexhepi-cloud/dm-effect-analysis/blob/main/paper/Dark_Matter_Effect_22_03_26.pdf
