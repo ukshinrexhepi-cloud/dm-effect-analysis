@@ -1,78 +1,134 @@
 # Dark Matter Effect – Reproducible Analysis
 
-This repository contains the reproducible data analysis associated with the paper:
+This repository contains the reproducible analysis products associated with the study:
 
-**Dunkle-Materie-Effekt**  
-Ukshin Q. Rexhepi (2026)
-
----
+**The Dark Matter Effect as Structured Additional Dynamics**  
+*Regimes and Acceleration Relations in SPARC Rotation Curves*
 
 ## Overview
 
-This project presents a systematic analysis of 163 galaxy rotation curves from the SPARC database.
+This repository documents an empirical analysis of SPARC rotation curve data with three main components:
 
-The empirical additional term is defined as:
+1. q-regime analysis of structurally fitted additional dynamics
+2. BTFR comparison between the standard flat velocity `Vflat` and a structurally defined outer velocity `Vout`
+3. Acceleration-dependent residual analysis testing whether the improvement of `Vout` depends on dynamical regime
 
-C(r) = v_obs² - v_bar²
+## Main results
 
-After normalization, the resulting profiles reveal a bimodal structure in the scale parameter *q*, indicating two preferred dynamical regimes.
+- The fitted q-distribution shows two preferred regimes with a weakly populated transition zone.
+- The structurally defined velocity `Vout` reproduces the baryonic Tully–Fisher relation (BTFR) with nearly identical slope to the standard `Vflat`.
+- `Vout` yields a slightly smaller global scatter than `Vflat`.
+- This improvement is acceleration-dependent:
+  - stronger in the high-acceleration regime
+  - nearly absent in the low-acceleration regime
 
----
+## Repository structure
 
-## Main Results
+- `data/` – processed CSV files used in the analysis
+- `figures/` – generated plots
+- `notebook/analysis.ipynb` – main reproducible notebook
+- `docs/notes.md` – short methodological notes
 
-The distribution of the parameter *q* shows:
+## Data source
 
-- **Peak regime:** q < 1.2 (~62%)
-- **Diffuse regime:** q > 2.5 (~26%)
-- **Transition regime:** 1.2 ≤ q < 2.5 (~12%)
+The analysis is based on the SPARC database:
 
-These results indicate the presence of two preferred dynamical states with a weakly populated transition region.
+Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016).  
+*SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves.*  
+The Astronomical Journal, 152, 157.
 
----
-
-## Additional Insight
-
-A more detailed analysis shows that the assignment to these regimes is not strictly determined by galaxy type.
-
-Mean q-values by galaxy type:
-
-- Dwarf: ~0.5  
-- LSB: ~1.0  
-- ESO: ~1.05  
-- UGC: ~1.25  
-- NGC: ~1.6  
-- IC: ~3.0  
-
-This suggests that the observed regimes correspond to **dynamical states** rather than fixed morphological classifications.
-
----
-
-## Repository Structure
-
-- `data/` → CSV files used and generated in the analysis  
-- `plots/` → generated figures (histograms and boxplots)  
-- `notebook/analysis.ipynb` → full reproducible Colab notebook  
-- `paper/` → manuscript source files  
-
----
+This repository contains processed analysis products and derived tables only. Users should obtain the original SPARC source data from the official SPARC distribution.
 
 ## Reproducibility
 
-All results can be reproduced using the provided notebook:
+To reproduce the analysis:
 
-`notebook/analysis.ipynb`
+1. Install the required Python packages listed in `requirements.txt`
+2. Open `notebook/analysis.ipynb`
+3. Run the notebook cells in order
+4. Use the processed CSV files in `data/` or obtain the original SPARC files from the official source
 
-The workflow includes:
+## Included files
 
-1. Loading the dataset (`q_fit_results.csv`)
-2. Classification of galaxies by filename-derived type
-3. Computation of regime fractions
-4. Generation of plots:
-   - q distribution (histogram)
-   - q vs galaxy type (boxplot)
-5. Export of summary tables
+### Data
+- `clean_btfr.csv`
+- `merged_btfr.csv`
+- `q_fit_results.csv`
 
+### Figures
+- `btfr_comparison.png`
+- `improvement_vs_acc.png`
+- `q_histogram.png`
+- `q_by_type.png`
+
+## Notes
+
+This repository is intended to document the empirical analysis and improve reproducibility of the reported results.# Dark Matter Effect – Reproducible Analysis
+
+This repository contains the reproducible analysis products associated with the study:
+
+**The Dark Matter Effect as Structured Additional Dynamics**  
+*Regimes and Acceleration Relations in SPARC Rotation Curves*
+
+## Overview
+
+This repository documents an empirical analysis of SPARC rotation curve data with three main components:
+
+1. q-regime analysis of structurally fitted additional dynamics
+2. BTFR comparison between the standard flat velocity `Vflat` and a structurally defined outer velocity `Vout`
+3. Acceleration-dependent residual analysis testing whether the improvement of `Vout` depends on dynamical regime
+
+## Main results
+
+- The fitted q-distribution shows two preferred regimes with a weakly populated transition zone.
+- The structurally defined velocity `Vout` reproduces the baryonic Tully–Fisher relation (BTFR) with nearly identical slope to the standard `Vflat`.
+- `Vout` yields a slightly smaller global scatter than `Vflat`.
+- This improvement is acceleration-dependent:
+  - stronger in the high-acceleration regime
+  - nearly absent in the low-acceleration regime
+
+## Repository structure
+
+- `data/` – processed CSV files used in the analysis
+- `figures/` – generated plots
+- `notebook/analysis.ipynb` – main reproducible notebook
+- `docs/notes.md` – short methodological notes
+
+## Data source
+
+The analysis is based on the SPARC database:
+
+Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016).  
+*SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves.*  
+The Astronomical Journal, 152, 157.
+
+This repository contains processed analysis products and derived tables only. Users should obtain the original SPARC source data from the official SPARC distribution.
+
+## Reproducibility
+
+To reproduce the analysis:
+
+1. Install the required Python packages listed in `requirements.txt`
+2. Open `notebook/analysis.ipynb`
+3. Run the notebook cells in order
+4. Use the processed CSV files in `data/` or obtain the original SPARC files from the official source
+
+## Included files
+
+### Data
+- `clean_btfr.csv`
+- `merged_btfr.csv`
+- `q_fit_results.csv`
+
+### Figures
+- `btfr_comparison.png`
+- `improvement_vs_acc.png`
+- `q_histogram.png`
+- `q_by_type.png`
+
+## Notes
+
+This repository is intended to document the empirical analysis and improve reproducibility of the reported results.
 ---
 
 ## Author
