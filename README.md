@@ -130,6 +130,13 @@ To reproduce the analysis:
 
 This repository is intended to document the empirical analysis and improve reproducibility of the reported results.
 ---
+## Notes
+
+The merged dataset is constructed by combining:
+- derived outer velocities (Vout)
+- SPARC baryonic data
+
+The processed dataset is provided as merged_btfr.csv.
 
 ## Author
 
