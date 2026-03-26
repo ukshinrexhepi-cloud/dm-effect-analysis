@@ -6,10 +6,7 @@ This repository contains the reproducible analysis products associated with the 
 *Regimes and Acceleration Relations in SPARC Rotation Curves*
 
 ## Current status
-
-    q-regime analysis completed (final version used in paper)
-    BTFR comparison completed
-    acceleration-dependent improvement test completed
+ q-regime analysis completed (final version used in paper)     BTFR comparison completed     acceleration-dependent improvement test completed
 
 ## Overview
 
