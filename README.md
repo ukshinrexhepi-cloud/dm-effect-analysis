@@ -5,7 +5,7 @@ This repository contains the reproducible analysis products associated with the 
 **The Dark Matter Effect as Structured Additional Dynamics**  
 *Regimes and Acceleration Relations in SPARC Rotation Curves*
 
-Current status
+## Current status
 
     q-regime analysis completed (final version used in paper)
     BTFR comparison completed
