@@ -137,6 +137,12 @@ The merged dataset is constructed by combining:
 - SPARC baryonic data
 
 The processed dataset is provided as merged_btfr.csv.
+---
+### Legacy files
+
+The folder `data/legacy/` contains intermediate results from earlier
+analysis stages (preprint v1). These files are preserved for transparency
+but are not used in the final results reported in the paper.
 
 ## Author
 
