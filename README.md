@@ -149,6 +149,28 @@ The folder `data/legacy/` contains intermediate results from earlier
 analysis stages (preprint v1). These files are preserved for transparency
 but are not used in the final results reported in the paper.
 
+# UQSH Project
+
+This repository contains analysis and modeling of:
+
+- Radial Acceleration Relation (RAR)
+- Core-Cusp problem
+- Bullet Cluster analogue
+
+within the Universal Quantum Foam Hypothesis (UQSH).
+
+## Contents
+
+- notebooks: analysis pipelines
+- figures: publication-ready figures
+- data: processed datasets
+
+## Key Results
+
+- unified explanation of RAR + core-cusp
+- nonlocal field effects reproduce core slopes
+- Bullet Cluster-like separation without dark matter
+
 ## Author
 
 Ukshin Q. Rexhepi  
