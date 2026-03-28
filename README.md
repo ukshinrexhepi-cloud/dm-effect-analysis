@@ -10,7 +10,7 @@ This repository contains the reproducible analysis products associated with the 
  BTFR comparison completed     
  acceleration-dependent improvement test completed
 
- # UQSH Bullet Cluster Project 
+ ## UQSH Bullet Cluster Project 
  This repository contains the working versions of:  - RAR / MDAR / BTFR - Core-Cusp - Bullet Cluster  
  Current status:  - Real and modeled bullet cluster geometry compared  - Offsets extracted from Clowe et al. - UQSH model tested with structure-dependent field coupling """  
  with open(repo_path + "/README.md", "w", encoding="utf-8") as f:  f.write(readme)  print("README.md created")
