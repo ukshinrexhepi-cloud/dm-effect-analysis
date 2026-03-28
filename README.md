@@ -15,6 +15,16 @@ This repository contains the reproducible analysis products associated with the 
  Current status:  - Real and modeled bullet cluster geometry compared  - Offsets extracted from Clowe et al. - UQSH model tested with structure-dependent field coupling """  
  with open(repo_path + "/README.md", "w", encoding="utf-8") as f:  f.write(readme)  print("README.md created")
 
+ ## Bullet Cluster Analysis
+
+- Extraktion realer Offsets aus Clowe et al. (2006)
+- Vergleich mit UQSH-Modell
+- Mittlerer Offset: ~223 kpc
+
+Die Analyse zeigt eine Trennung zwischen Gas- und
+effektiver gravitativer Struktur, die im Modell
+reproduziert wird.
+
 ## Overview
 
 This repository documents an empirical analysis of SPARC rotation curve data with three main components:
