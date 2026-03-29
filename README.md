@@ -10,20 +10,65 @@ This repository contains the reproducible analysis products associated with the 
  BTFR comparison completed     
  acceleration-dependent improvement test completed
 
- ## UQSH Bullet Cluster Project 
- This repository contains the working versions of:  - RAR / MDAR / BTFR - Core-Cusp - Bullet Cluster  
- Current status:  - Real and modeled bullet cluster geometry compared  - Offsets extracted from Clowe et al. - UQSH model tested with structure-dependent field coupling """  
- with open(repo_path + "/README.md", "w", encoding="utf-8") as f:  f.write(readme)  print("README.md created")
+ ## Bullet Cluster
 
- ## Bullet Cluster Analysis
+This section provides a reproducible analysis of the Bullet Cluster
+within the UQSH (Universal Quantum Foam Hypothesis) framework.
 
-- Extraktion realer Offsets aus Clowe et al. (2006)
-- Vergleich mit UQSH-Modell
-- Mittlerer Offset: ~223 kpc
+### Contents
 
-Die Analyse zeigt eine Trennung zwischen Gas- und
-effektiver gravitativer Struktur, die im Modell
-reproduziert wird.
+- Extraction of the right-hand panel from Clowe et al. (2006)
+- Calibration using the 200 kpc scale bar
+- Measurement of spatial offsets between the gas distribution
+  and the effective gravitational (lensing) structure
+- Comparison with a structure-dependent UQSH field model
+
+### Method
+
+The analysis is based on the reference X-ray + lensing image.
+The gas peak and the lensing peaks are identified using
+peak-based localization, avoiding centroid bias from diffuse structures.
+
+Distances are converted to physical units using the
+200 kpc scale bar embedded in the original figure.
+
+### Results
+
+The measured offsets between gas and lensing peaks are:
+
+- left: 218.7 kpc  
+- right: 227.6 kpc  
+- mean: 223.2 kpc  
+
+The UQSH model reproduces the same order of magnitude
+and yields a consistent spatial separation.
+
+### Interpretation
+
+The results show that the dominant gravitational structure
+does not coincide with the collisional gas component,
+but instead follows the galaxy distribution.
+
+Within the UQSH framework, this is interpreted as a consequence
+of structure-dependent field coupling:
+
+coherent, dynamically stable structures (galaxies) anchor
+the effective gravitational field, while diffuse baryonic matter
+(gas) contributes but does not determine the location of the
+dominant field maxima.
+
+### Reproducibility
+
+To reproduce the analysis:
+
+1. Upload the Bullet Cluster reference PDF to `/content/`
+2. Run the notebook `bullet_cluster_analysis.ipynb`
+3. Execute all cells in order
+
+The repository contains:
+- processed data (`data/`)
+- generated figures (`figures/`)
+- the full analysis notebook (`notebooks/`)
 
 ## Overview
 
