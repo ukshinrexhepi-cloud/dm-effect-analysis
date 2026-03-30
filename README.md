@@ -57,6 +57,55 @@ the effective gravitational field, while diffuse baryonic matter
 (gas) contributes but does not determine the location of the
 dominant field maxima.
 
+# Core-Cusp Analysis – UQSH Framework
+
+This repository contains the core-cusp analysis based on SPARC rotation curve data.
+
+## Overview
+
+This analysis investigates the inner structure of galaxies by computing:
+
+- Effective mass profiles
+- Inner logarithmic slopes
+- Comparison with standard dark matter models (NFW, core-like profiles)
+- Relation to q-regimes
+
+## Main Results
+
+- Inner slopes are systematically inconsistent with NFW predictions
+- Observed slopes cluster in a narrow positive range (~1.7–1.9)
+- No evidence for classical cuspy halos
+- No clear agreement with flat-core models either
+- Strong indication of structured dynamical field behavior
+
+## Files
+
+### Data
+
+- `core_slopes.csv` – inner slopes per galaxy
+- `core_vs_q.csv` – slopes merged with q-regime
+- `core_summary.csv` – aggregated statistics
+
+### Figures
+
+- `fig_core_q_relation.png`
+- `fig_core_model_comparison.png`
+
+### Notebook
+
+- `core_cusp_analysis.ipynb`
+
+## Data Source
+
+SPARC database (Lelli et al. 2016)
+
+## Interpretation
+
+Results suggest that inner galaxy dynamics are governed by
+structured field interactions rather than static dark matter halos.
+
+This is consistent with the UQSH framework.
+
 ### Reproducibility
 
 To reproduce the analysis:
