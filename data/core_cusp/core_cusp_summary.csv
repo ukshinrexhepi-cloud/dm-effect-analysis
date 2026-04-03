@@ -1,0 +1,6 @@
+,slope_3,slope_3,slope_3,slope_5,slope_5,slope_5,slope_8,slope_8,slope_8,slope_original,slope_original,slope_original,r_max,r_max,r_max,V_max,V_max,V_max,mass_norm,mass_norm,mass_norm
+,median,std,count,median,std,count,median,std,count,median,std,count,median,std,count,median,std,count,median,std,count
+groesse,,,,,,,,,,,,,,,,,,,,,
+Klein,2.391,0.569,107,2.208,0.527,107,2.138,0.498,107,2.208,0.527,107,7.39,3.876,107,74.7,46.376,107,0.006,0.055,107
+Uebergang,2.085,0.806,32,1.941,0.728,32,1.799,0.624,32,1.941,0.728,32,20.635,4.376,32,163.0,55.722,32,0.083,0.094,32
+Gross,1.537,0.624,36,1.448,0.561,36,1.278,0.506,36,1.448,0.561,36,43.245,17.129,36,237.5,63.44,36,0.359,0.27,36
