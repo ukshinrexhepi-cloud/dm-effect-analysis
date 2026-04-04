@@ -2,7 +2,8 @@
 
 ## Velocity definitions
 - `Vflat` is taken from the SPARC table where available.
-- `Vout` is defined from the outer part of the rotation curve using the last 20% of available points.
+- `Vout` is defined as the median of the last 3 data points
+  of the rotation curve.
 
 ## BTFR test
 Two fits are compared:
