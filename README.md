@@ -9,7 +9,7 @@ Reproducible analysis of the Dark Matter Effect within the UQSH
 
 ---
 
-## Published Preprint (v1)
+## Published Preprint (v2)
 
 **Title:** Bimodal Regime Structure in Galactic Rotation Curves: 
 Evidence for Distinct Dynamical States and a Field-Based 
